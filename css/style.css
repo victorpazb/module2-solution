@@ -4,40 +4,52 @@ h1 {
     padding-bottom: 30px;
 }
 
+
+
 div {
-    
+
+   
     text-align: right;
     font-family: cursive;
     background-color: gray;
     border-style: solid;
-   
 }
 
 h2 {
-    display: inline-block;
+   
     text-align: center;
     align-content: flex-start;
-    width: fit-content;
+    width: auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px 5px 30px;
 
 }
 
-h2#leftBox {
-    background-color: #fa7f72;
+.div1 {
+
+    height: fit-content;
+    width: 500px;
+    display: inline-block;
 }
 
-h2#centerBox {
-    background-color: red;
-    color: white;
+.div2 {
+
+    height: fit-content;
+    width: 500px;
+    display: inline-block;
 }
 
-h2#rigthBox {
-    background-color: #F5F5DC;
+.div3 {
+
+    height: fit-content;
+    width: 500px;
+    display: inline-block;
 }
 
 p {
+    padding-left: 5px;
     text-align: left;
     font-family: cursive;
     font-family: Arial, Helvetica, sans-serif;
 }
+
