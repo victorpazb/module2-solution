@@ -19,7 +19,6 @@ h2 {
    
 
     display: inline-block;
-    /*float: right;*/
     text-align: center;
     align-content: flex-start;
     width: auto;
@@ -32,9 +31,17 @@ h2 {
 
 }
 
+.container1 {
+    display: flex;
+    justify-content: center;
+    border: 0ch;
+    border-style: none;
+    background-color: white;
+}
+
 body {
     padding-right: auto;
-    padding-left: 50px;
+    padding-left: auto;
 }
 
 .div1 {
