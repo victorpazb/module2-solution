@@ -17,33 +17,68 @@ div {
 
 h2 {
    
+
+    display: inline-block;
+    /*float: right;*/
     text-align: center;
     align-content: flex-start;
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 30px 5px 30px;
+    padding-top: 0px;
+    padding: 5px 35px 5px 35px;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+    
 
+}
+
+body {
+    padding-right: auto;
+    padding-left: 50px;
 }
 
 .div1 {
 
+    
     height: fit-content;
-    width: 500px;
+    width: 30%;
     display: inline-block;
 }
 
 .div2 {
 
     height: fit-content;
-    width: 500px;
+    width: 30%;
     display: inline-block;
 }
 
 .div3 {
 
     height: fit-content;
-    width: 500px;
+    width: 30%;
     display: inline-block;
+}
+
+.centerTitle {
+    margin-top: -3px;
+    margin-right: -3px;
+    color: white;
+    background-color: red;
+    border-color: black;
+
+}
+
+.leftTitle {
+    margin-right: -3px;
+    margin-top: -3px;
+    background-color: #fa7f72;
+    
+}
+
+.rigthTitle {
+    margin-right: -3px;
+    margin-top: -3px;
+    background-color: bisque;
 }
 
 p {
