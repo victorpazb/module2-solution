@@ -41,8 +41,9 @@ h2 {
 }
 
 body {
-    padding-right: auto;
-    padding-left: auto;
+
+    padding-right: 0px;
+    padding-left: 50px;
 }
 
 .div1 {
